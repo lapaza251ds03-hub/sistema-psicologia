@@ -11,11 +11,11 @@
         <nav>
             <ul><li><strong>Sistema de Psicología</strong></li></ul>
             <ul>
-                <li><a href="{{ route('inicio') }}">Inicio</a></li>
-                <li><a href="#">Pacientes</a></li>
-                <li><a href="#">Citas</a></li>
-                <li><a href="#">Evaluaciones</a></li>
-                <li><a href="#">Terapeutas</a></li>
+            <li><a href="{{ route('inicio') }}">Inicio</a></li>
+            <li><a href="{{ route('pacientes.index') }}">Pacientes</a></li>
+            <li><a href="#">Citas</a></li>
+            <li><a href="#">Evaluaciones</a></li>
+            <li><a href="#">Terapeutas</a></li>
             </ul>
         </nav>
     </header>
